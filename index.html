@@ -290,6 +290,22 @@
             }
         }
 
+        @media (max-width: 1199px){
+            .image-section img.main-image {
+                width: 480px;
+            }
+
+            .overlay2 {
+                right: -6%;
+                width: 34%;
+            }
+
+            .overlay1 {
+                left: -13%;
+                width: 34%;
+            }
+        }
+
         @media (max-width: 992px) {
             .content-section {
                 flex-direction: column;
@@ -539,7 +555,6 @@
         /* Tablets & Smaller Desktops */
         @media (max-width: 992px) {
             .row.align-items-center {
-                flex-direction: column;
                 text-align: center;
             }
             .content-box {
@@ -650,104 +665,309 @@
 
 
         /* FEATURED PROPERTIES */
-        .container {
-            max-width: 1200px;
-        }
-        .section-title {
-            font-weight: bold;
-            font-size: 28px;
-            color: #2c2c2c;
-        }
-        .filters {
-            display: flex;
-            justify-content: end;
-            gap: 10px;
-            margin-bottom: 20px;
-        }
-        .property-card {
-            border: none;
-            overflow: hidden;
-            transition: 0.3s;
-            position: relative;
-            background: white;
-        }
-        .property-card img {
-            border-radius: 12px;
-            width: 100%;
-            height: 207px;
-            object-fit: cover;
-        }
-        .guest-favorite {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            background: white;
-            color: rgba(0, 0, 0, 0.8);
-            padding: 5px 15px;
-            font-size: 12px;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-        .favorite-icon {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            padding: 8px;
-            background-image: url(./images/heart.png);
-            background-size: cover;
-            background-repeat: no-repeat;
-            cursor: pointer;
-            width: 27px;
-            height: 24px;
-        }
-        .rating {
-            color: #ffcc00;
-            font-weight: bold;
-        }
+            .container {
+                max-width: 1200px;
+            }
+            .section-title {
+                font-weight: bold;
+                font-size: 28px;
+                color: #2c2c2c;
+            }
+            .filters {
+                display: flex;
+                justify-content: end;
+                gap: 10px;
+                margin-bottom: 20px;
+            }
+            .property-card {
+                border: none;
+                overflow: hidden;
+                transition: 0.3s;
+                position: relative;
+                width: 268px;
+                height: 400px;
+            }
+            .property-card img {
+                border-radius: 12px;
+                width: 100%;
+                height: 207px;
+                object-fit: cover;
+            }
+            .guest-favorite {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                background: white;
+                color: rgba(0, 0, 0, 0.8);
+                padding: 5px 15px;
+                font-size: 12px;
+                border-radius: 5px;
+                font-weight: bold;
+            }
+            .favorite-icon {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                padding: 8px;
+                background-image: url(./images/heart.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                cursor: pointer;
+                width: 27px;
+                height: 24px;
+            }
+            .rating {
+                color: #ffcc00;
+                font-weight: bold;
+            }
 
-        .middle img {
-            width: 24px;
-            height: 22px;
-            object-fit: cover;
-            padding-left: 5px;
-        }
+            .middle img {
+                width: 24px;
+                height: 22px;
+                object-fit: cover;
+                padding-left: 5px;
+            }
 
-        .small-image-main {
-            display: flex;
-            justify-content: space-between;
-            padding-right: 3.3rem;
-            margin-left: -5px;
-        }
+            .small-image-main {
+                display: flex;
+                justify-content: space-between;
+                padding-right: 49px;
+                margin-left: -5px;
+            }
 
-        .dividers {
-            width: 1px;
-            height: 21px;
-            background-color: #ddd;
-            margin-top: 3px;
-        }
+            .dividers {
+                width: 1px;
+                height: 21px;
+                background-color: #ddd;
+                margin-top: 3px;
+            }
 
-        .price {
-            line-height: 3.8rem;
-        }
+            .price {
+                line-height: 3.8rem;
+            }
 
-        .image-text-contain {
-            padding-right: 7rem;
-        }
+            .image-text-contain {
+                padding-right: 7rem;
+            }
 
-        h5.card-title {
-            font-size: 16px;
-            font-weight: bold;
-        }
+            h5.card-title {
+                font-size: 16px;
+                font-weight: bold;
+            }
 
-        .two-image-fix {
-            padding-right: 5rem;
-        }
+            .two-image-fix {
+                padding-right: 5rem;
+            }
 
-        span.star-icon img {
-            width: 18px;
-            height: 18px;
-            margin-top: -6px;
-        }
+            span.star-icon img {
+                width: 18px;
+                height: 18px;
+                margin-top: -6px;
+            }
+
+            .card {
+                border: none;
+                background-color: rgba(248, 248, 252, 1);
+            }
+
+            .cards-main-div {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                justify-content: center;
+                align-items: center;
+            }
+
+            .single {
+                padding-right: 106px;
+            }
+
+            .double {
+                padding-right: 78px;
+            }
+
+            .features-properties-main {
+                background-color: rgba(248, 248, 252, 1);
+            }
+
+            .drop-down {
+                border-radius: 50px;
+            }
+
+            @media(max-width:1280px){
+                .property-card {
+                    width: 268px;
+                }
+
+                .property-card img {
+                    height: 198px;
+                }
+
+                .middle img {
+                    width: 24px;
+                    height: 22px !important;
+                }
+
+                .small-image-main {
+                    padding-right: 51px;
+                }
+
+                .single {
+                    padding-right: 104px !important;
+                }
+
+                .double {
+                    padding-right: 82px !important;
+                }
+            }
+
+            @media(max-width:1199px){
+                .cards-main-div {
+                    grid-template-columns: repeat(3, 1fr);
+                    padding-right: 8rem;
+                    padding-left: 8rem;
+                }
+            }
+
+            @media(max-width:1130px){
+                .cards-main-div {
+                    gap: 25px;
+                }
+            }
+
+            @media (max-width: 991px){
+                .cards-main-div {
+                    grid-template-columns: repeat(2, 1fr);
+                    padding-right: 12rem;
+                    padding-left: 12rem;
+                }
+            }
+
+            @media (max-width: 588px){
+                .cards-main-div {
+                    grid-template-columns: repeat(1, 1fr);
+                    padding-right: 12rem;
+                    padding-left: 12rem;
+                }
+            }
+
+            @media (max-width: 395px){
+                .cards-main-div {
+                    padding-right: 4rem;
+                    padding-left: 4.5rem;
+                }
+            }
+
+
+
+
+
+            .second-main {
+                display: flex;
+                gap: 28px;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            
+            .testimonial-group {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+            
+            .testimonial-column {
+                width: 20rem;
+                display: flex;
+            }
+            
+            .testimonial-card {
+                background: white;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+                text-align: left;
+                width: 100%;
+                
+                /* Fix uneven height issue */
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            
+            .testimonial-card .logos {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            
+            .testimonial-card .logos img {
+                width: 75px;
+                height: 45px;
+                object-fit: contain;
+            }
+            
+            img.stars {
+                width: 120px !important;
+                height: 30px !important;
+                object-fit: cover;
+            }
+
+            .sec {
+                width: 100%;
+            }
+            
+            .first-second-main {
+                display: flex;
+                gap: 28px;
+            }
+
+            .first {
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+                justify-content: center;
+            }
+
+            .second-thone {
+                display: flex;
+                flex-direction: column;
+                row-gap: 25px;
+                width: min-content;
+            }
+
+            .third {
+                display: flex;
+                flex-direction: column;
+                row-gap: 25px;
+                justify-content: center;
+            }
+
+            .new-success {
+                padding: 12px 100px 12px 100px;
+            }
+
+            
+            @media (max-width: 11199px){
+                .new-success {
+                    padding: 12px 80px 12px 80px;
+                }
+            }
+            @media (max-width: 1024px) {
+                .testimonial-column {
+                    width: 48%; /* Keep two per row on medium screens */
+                }
+            }
+            
+            @media (max-width: 768px) {
+                .testimonial-group {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .testimonial-column {
+                    width: 100%; /* Stack on small screens */
+                }
+            }
+            
     </style>
 </head>
 <body>
@@ -1088,278 +1308,347 @@
 
 
 <!-- FEATURED PROPERTIES -->
-<div class="container mt-5">
+<div class="features-properties-main">
+<div class="container mt-5 features-properties">
     <h6 class="text-warning">FEATURED PROPERTIES</h6>
     <h2 class="section-title">Start here, live anywhere</h2>
     <p>With over 7,000 apartments in our network, you're free to roam with Stayrelive.</p>
 
     <div class="filters">
-        <select class="form-select w-auto">
+        <select class="form-select w-auto drop-down">
             <option>Property Type</option>
             <option>Apartment</option>
             <option>Studio</option>
         </select>
-        <select class="form-select w-auto">
+        <select class="form-select w-auto drop-down">
             <option>Amenities</option>
             <option>WiFi</option>
             <option>Parking</option>
         </select>
     </div>
 
-    <div class="row">
-        <div class="col-md-3 mb-4">
-            <div class="card property-card">
-                <span class="guest-favorite">Guest Favorite</span>
-                <span class="favorite-icon"></span>
-                <img src="./images/sofa.png" class="card-img-top" alt="Property">
-                <div class="card-body">
-                    <div class="k">
-                    <div class="d-flex justify-content-between">
-                    <h5 class="card-title">BKC, IT Park</h5>
-                    <div class="rating-container">
-                        <span class="star-icon">
-                            <img src="./images/star_filled.png" alt="">
-                        </span>
-                        <span class="rating-text">4.9</span>
-                    </div>
-                    </div>
-                    <div class="small-image-main">
-                        <div class="middle">
-                            <img src="./images/directions_car.png" alt="car">
-                            <img src="./images/Wifi.png" alt="car">
-                            <img src="./images/dumbel.png" alt="car">
+    <div class="cards-main-div">
+            <div class="property-card">
+                <div class="card">
+                    <span class="guest-favorite">Guest Favorite</span>
+                    <span class="favorite-icon"></span>
+                    <img src="./images/sofa.png" class="card-img-top" alt="Property">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title">BKC, IT Park</h5>
+                            <div class="rating-container">
+                                <span class="star-icon">
+                                    <img src="./images/star_filled.png" alt="">
+                                </span>
+                                <span class="rating-text">4.9</span>
+                            </div>
                         </div>
-                        <div class="dividers"></div>
-                        <p class="card-text">2 Bed, 1 Bath</p>
-                    </div>
-                    </div>
-                    <div class="price">
-                        <p class="text-muted">From <strong>₹2,085/mo</strong></p>
+                        <div class="small-image-main">
+                            <div class="middle">
+                                <img src="./images/directions_car.png" alt="car">
+                                <img src="./images/Wifi.png" alt="car">
+                                <img src="./images/dumbel.png" alt="car">
+                            </div>
+                            <div class="dividers"></div>
+                            <p class="card-text">2 Bed, 1 Bath</p>
+                        </div>
+                        <div class="price">
+                            <p class="text-muted">From <strong>₹2,085/mo</strong></p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         
-        <div class="col-md-3 mb-4">
-            <div class="card property-card">
-                <span class="favorite-icon"></span>
-                <img src="./images/chair.png" class="card-img-top" alt="Property">
-                <div class="card-body">
-                    <div class="k">
-                    <div class="d-flex justify-content-between">
-                    <h5 class="card-title">Lower Parel, Business Bay</h5>
-                    <div class="rating-container">
-                        <span class="star-icon">
-                            <img src="./images/star_filled.png" alt="">
-                        </span>
-                        <span class="rating-text">4.9</span>
-                    </div>
-                    </div>
-                    <div class="small-image-main image-text-contain">
-                        <div class="middle">
-                            <img src="./images/Wifi.png" alt="car">
+                <div class="property-card">
+                    <div class="card">
+                        <span class="favorite-icon"></span>
+                        <img src="./images/chair.png" class="card-img-top" alt="Property">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="card-title">BKC, IT Park</h5>
+                                <div class="rating-container">
+                                    <span class="star-icon">
+                                        <img src="./images/star_filled.png" alt="">
+                                    </span>
+                                    <span class="rating-text">4.9</span>
+                                </div>
+                            </div>
+                            <div class="small-image-main single">
+                                <div class="middle">
+                                    <img src="./images/Wifi.png" alt="car">
+                                </div>
+                                <div class="dividers"></div>
+                                <p class="card-text">1 Bed, 1 Bath</p>
+                            </div>
+                            <div class="price">
+                                <p class="text-muted">From <strong>₹2,085/mo</strong></p>
+                            </div>
                         </div>
-                        <div class="dividers"></div>
-                        <p class="card-text">2 Bed, 1 Bath</p>
                     </div>
+                </div>
+
+            <div class="property-card">
+                <div class="card">
+                    <span class="favorite-icon"></span>
+                    <img src="./images/bedroom.png" class="card-img-top" alt="Property">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title">BKC, IT Park</h5>
+                            <div class="rating-container">
+                                <span class="star-icon">
+                                    <img src="./images/star_filled.png" alt="">
+                                </span>
+                                <span class="rating-text">4.9</span>
+                            </div>
+                        </div>
+                        <div class="small-image-main">
+                            <div class="middle">
+                                <img src="./images/directions_car.png" alt="car">
+                                <img src="./images/Wifi.png" alt="car">
+                                <img src="./images/dumbel.png" alt="car">
+                            </div>
+                            <div class="dividers"></div>
+                            <p class="card-text">2 Bed, 2 Bath</p>
+                        </div>
+                        <div class="price">
+                            <p class="text-muted">From <strong>₹2,085/mo</strong></p>
+                        </div>
                     </div>
-                    <div class="price">
-                        <p class="text-muted">From <strong>₹1,950/mo</strong></p>
+                </div>
+            </div>
+
+            <div class="property-card">
+                <div class="card">
+                    <span class="guest-favorite">Guest Favorite</span>
+                    <span class="favorite-icon"></span>
+                    <img src="./images/andheri.png" class="card-img-top" alt="Property">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title">BKC, IT Park</h5>
+                            <div class="rating-container">
+                                <span class="star-icon">
+                                    <img src="./images/star_filled.png" alt="">
+                                </span>
+                                <span class="rating-text">4.9</span>
+                            </div>
+                        </div>
+                        <div class="small-image-main">
+                            <div class="middle">
+                                <img src="./images/directions_car.png" alt="car">
+                                <img src="./images/Wifi.png" alt="car">
+                                <img src="./images/dumbel.png" alt="car">
+                            </div>
+                            <div class="dividers"></div>
+                            <p class="card-text">2 Bed, 1 Bath</p>
+                        </div>
+                        <div class="price">
+                            <p class="text-muted">From <strong>₹2,085/mo</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="property-card">
+                <div class="card">
+                    <span class="favorite-icon"></span>
+                    <img src="./images/hall-sofa.png" class="card-img-top" alt="Property">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title">BKC, IT Park</h5>
+                            <div class="rating-container">
+                                <span class="star-icon">
+                                    <img src="./images/star_filled.png" alt="">
+                                </span>
+                                <span class="rating-text">4.9</span>
+                            </div>
+                        </div>
+                        <div class="small-image-main single ">
+                            <div class="middle">
+                                <img src="./images/Wifi.png" alt="car">
+                            </div>
+                            <div class="dividers"></div>
+                            <p class="card-text">2 Bed, 1 Bath</p>
+                        </div>
+                        <div class="price">
+                            <p class="text-muted">From <strong>₹2,085/mo</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="property-card">
+                <div class="card">
+                    <span class="favorite-icon"></span>
+                    <img src="./images/new bedroom.png" class="card-img-top" alt="Property">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title">BKC, IT Park</h5>
+                            <div class="rating-container">
+                                <span class="star-icon">
+                                    <img src="./images/star_filled.png" alt="">
+                                </span>
+                                <span class="rating-text">4.9</span>
+                            </div>
+                        </div>
+                        <div class="small-image-main single ">
+                            <div class="middle">
+                                <img src="./images/Wifi.png" alt="car">
+                            </div>
+                            <div class="dividers"></div>
+                            <p class="card-text">1 Bed, 1 Bath</p>
+                        </div>
+                        <div class="price">
+                            <p class="text-muted">From <strong>₹2,085/mo</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="property-card">
+                <div class="card">
+                    <span class="guest-favorite">Guest Favorite</span>
+                    <span class="favorite-icon"></span>
+                    <img src="./images/hall-sofa.png" class="card-img-top" alt="Property">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title">BKC, IT Park</h5>
+                            <div class="rating-container">
+                                <span class="star-icon">
+                                    <img src="./images/star_filled.png" alt="">
+                                </span>
+                                <span class="rating-text">4.9</span>
+                            </div>
+                        </div>
+                        <div class="small-image-main double">
+                            <div class="middle">
+                                <img src="./images/Wifi.png" alt="car">
+                                <img src="./images/dumbel.png" alt="car">
+                            </div>
+                            <div class="dividers"></div>
+                            <p class="card-text">2 Bed, 1 Bath</p>
+                        </div>
+                        <div class="price">
+                            <p class="text-muted">From <strong>₹2,085/mo</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="property-card">
+                <div class="card">
+                    <span class="guest-favorite">Guest Favorite</span>
+                    <span class="favorite-icon"></span>
+                    <img src="./images/chair.png" class="card-img-top" alt="Property">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title">BKC, IT Park</h5>
+                            <div class="rating-container">
+                                <span class="star-icon">
+                                    <img src="./images/star_filled.png" alt="">
+                                </span>
+                                <span class="rating-text">4.9</span>
+                            </div>
+                        </div>
+                        <div class="small-image-main double">
+                            <div class="middle">
+                                <img src="./images/Wifi.png" alt="car">
+                                <img src="./images/dumbel.png" alt="car">
+                            </div>
+                            <div class="dividers"></div>
+                            <p class="card-text">2 Bed, 1 Bath</p>
+                        </div>
+                        <div class="price">
+                            <p class="text-muted">From <strong>₹2,085/mo</strong></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
-        <div class="col-md-3 mb-4">
-            <div class="card property-card">
-                <span class="favorite-icon"></span>
-                <img src="./images/bedroom.png" class="card-img-top" alt="Property">
-                <div class="card-body">
-                    <div class="k">
-                    <div class="d-flex justify-content-between">
-                    <h5 class="card-title">Powai, Corporate Heights</h5>
-                    <div class="rating-container">
-                        <span class="star-icon">
-                            <img src="./images/star_filled.png" alt="">
-                        </span>
-                        <span class="rating-text">4.9</span>
+
+
+
+<div class="container py-5 text-center new-success">
+    <h6 class="text-warning">Success Stories</h6>
+    <h2 class="fw-bold">What our residents have to say</h2>
+    <p class="text-muted">See what roommates have to say about living in a Stayrelive home.</p>
+
+
+        <!-- First Two Testimonials -->
+        <div class="first-second-main">
+        <div class="first">
+            <div class="testimonial-column">
+                <div class="testimonial-card">
+                    <div class="logos">
+                        <img src="./images/p&g logo.png" alt="P&G">
+                        <img src="./images/four stars.png" alt="Four Stars" class="stars">
                     </div>
+                    <p>"Stayrelive makes booking for our employees incredibly easy. Their team is always accessible and I love how consistent the product is from city to city."</p>
+                </div>
+            </div>
+    
+            <div class="testimonial-column">
+                <div class="testimonial-card">
+                    <div class="logos">
+                        <img src="./images/fis-logo.png" alt="FIS">
+                        <img src="./images/five stars.png" alt="5 Stars" class="stars">
                     </div>
-                    <div class="small-image-main">
-                        <div class="middle">
-                            <img src="./images/directions_car.png" alt="car">
-                            <img src="./images/Wifi.png" alt="car">
-                            <img src="./images/dumbel.png" alt="car">
-                        </div>
-                        <div class="dividers"></div>
-                        <p class="card-text">2 Bed, 2 Bath</p>
-                    </div>
-                    </div>
-                    <div class="price">
-                        <p class="text-muted">From <strong>₹3,500/mo</strong></p>
-                    </div>
+                    <p>"Stayrelive makes booking for our employees incredibly easy. Their team is always accessible and I love how consistent the product is from city to city."</p>
                 </div>
             </div>
         </div>
+        <div class="second-main">
+        <!-- Second Two Testimonials -->
+        <div class="second-thone">
+            <div class="testimonial-column">
+                <div class="testimonial-card">
+                    <div class="logos">
+                        <img src="./images/thougth-work.png" alt="Thought Work">
+                        <img src="./images/four stars.png" alt="4 Stars" class="stars">
+                    </div>
+                    <p>"Stayrelive makes booking for our employees incredibly easy. Their team is always accessible and I love how consistent the product is from city to city. Their team is always accessible and I love how consistent the product is from city to city. Their team is always accessible and I love how consistent the product is from city to city.Their team is always accessible and I love how consistent the product is from city to city"</p>
+                </div>
+            </div>
+    
 
-        <div class="col-md-3 mb-4">
-            <div class="card property-card">
-                <span class="guest-favorite">Guest Favorite</span>
-                <span class="favorite-icon"></span>
-                <img src="./images/andheri.png" class="card-img-top" alt="Property">
-                <div class="card-body">
-                    <div class="k">
-                    <div class="d-flex justify-content-between">
-                    <h5 class="card-title">BKC, IT Park</h5>
-                    <div class="rating-container">
-                        <span class="star-icon">
-                            <img src="./images/star_filled.png" alt="">
-                        </span>
-                        <span class="rating-text">4.9</span>
+            <div class="sec">
+                <div class="testimonial-card">
+                    <div class="logos">
+                        <img src="./images/eclex.png" alt="eClerx">
+                        <img src="./images/four stars.png" alt="4 Stars" class="stars">
                     </div>
-                    </div>
-                    <div class="small-image-main">
-                        <div class="middle">
-                            <img src="./images/directions_car.png" alt="car">
-                            <img src="./images/Wifi.png" alt="car">
-                            <img src="./images/dumbel.png" alt="car">
-                        </div>
-                        <div class="dividers"></div>
-                        <p class="card-text">2 Bed, 1 Bath</p>
-                    </div>
-                    </div>
-                    <div class="price">
-                        <p class="text-muted">From <strong>₹2,100/mo</strong></p>
-                    </div>
+                    <p>"Stayrelive makes booking for our employees incredibly easy. Their team is always accessible and I love how consistent the product is from city to city."</p>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="col-md-3 mb-4">
-            <div class="card property-card">
-                <span class="favorite-icon"></span>
-                <img src="./images/hall-sofa.png" class="card-img-top" alt="Property">
-                <div class="card-body">
-                    <div class="k">
-                    <div class="d-flex justify-content-between">
-                    <h5 class="card-title">BKC, IT Park</h5>
-                    <div class="rating-container">
-                        <span class="star-icon">
-                            <img src="./images/star_filled.png" alt="">
-                        </span>
-                        <span class="rating-text">4.9</span>
+    
+        <!-- Last Two Testimonials -->
+        <div class="third">
+            <div class="testimonial-column">
+                <div class="testimonial-card">
+                    <div class="logos">
+                        <img src="./images/vanderland.png" alt="Vanderland">
+                        <img src="./images/five stars.png" alt="5 Stars" class="stars">
                     </div>
+                    <p>"Stayrelive makes booking for our employees incredibly easy. Their team is always accessible and I love how consistent the product is from city to city."</p>
+                </div>
+            </div>
+    
+            <div class="testimonial-column">
+                <div class="testimonial-card">
+                    <div class="logos">
+                        <img src="./images/tech mahendra.png" alt="Tech Mahindra">
+                        <img src="./images/five stars.png" alt="5 Stars" class="stars">
                     </div>
-                    <div class="small-image-main image-text-contain">
-                        <div class="middle">
-                            <img src="./images/Wifi.png" alt="car">
-                        </div>
-                        <div class="dividers"></div>
-                        <p class="card-text">2 Bed, 1 Bath</p>
-                    </div>
-                    </div>
-                    <div class="price">
-                        <p class="text-muted">From <strong>₹2,085/mo</strong></p>
-                    </div>
+                    <p>"Stayrelive makes booking for our employees incredibly easy. Their team is always accessible and I love how consistent the product is from city to city."</p>
                 </div>
             </div>
         </div>
-
-        <div class="col-md-3 mb-4">
-            <div class="card property-card">
-                <span class="favorite-icon"></span>
-                <img src="./images/new bedroom.png" class="card-img-top" alt="Property">
-                <div class="card-body">
-                    <div class="k">
-                    <div class="d-flex justify-content-between">
-                    <h5 class="card-title">Lower Parel, Business Bay</h5>
-                    <div class="rating-container">
-                        <span class="star-icon">
-                            <img src="./images/star_filled.png" alt="">
-                        </span>
-                        <span class="rating-text">4.9</span>
-                    </div>
-                    </div>
-                    <div class="small-image-main image-text-contain">
-                        <div class="middle">
-                            <img src="./images/Wifi.png" alt="car">
-                        </div>
-                        <div class="dividers"></div>
-                        <p class="card-text">1 Bed, 1 Bath</p>
-                    </div>
-                    </div>
-                    <div class="price">
-                        <p class="text-muted">From <strong>₹1,950/mo</strong></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3 mb-4">
-            <div class="card property-card">
-                <span class="guest-favorite">Guest Favorite</span>
-                <span class="favorite-icon"></span>
-                <img src="./images/sofa.png" class="card-img-top" alt="Property">
-                <div class="card-body">
-                    <div class="k">
-                    <div class="d-flex justify-content-between">
-                    <h5 class="card-title">Goregaon, Park Residency</h5>
-                    <div class="rating-container">
-                        <span class="star-icon">
-                            <img src="./images/star_filled.png" alt="">
-                        </span>
-                        <span class="rating-text">4.9</span>
-                    </div>
-                    </div>
-                    <div class="small-image-main two-image-fix">
-                        <div class="middle">
-                            <img src="./images/Wifi.png" alt="car">
-                            <img src="./images/dumbel.png" alt="car">
-                        </div>
-                        <div class="dividers"></div>
-                        <p class="card-text">2 Bed, 1 Bath</p>
-                    </div>
-                    </div>
-                    <div class="price">
-                        <p class="text-muted">From <strong>₹1,850/mo</strong></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3 mb-4">
-            <div class="card property-card">
-                <span class="guest-favorite">Guest Favorite</span>
-                <span class="favorite-icon"></span>
-                <img src="./images/chair.png" class="card-img-top" alt="Property">
-                <div class="card-body">
-                    <div class="k">
-                    <div class="d-flex justify-content-between">
-                    <h5 class="card-title">Goregaon, Park Residency</h5>
-                    <div class="rating-container">
-                        <span class="star-icon">
-                            <img src="./images/star_filled.png" alt="">
-                        </span>
-                        <span class="rating-text">4.9</span>
-                    </div>
-                    </div>
-                    <div class="small-image-main two-image-fix">
-                        <div class="middle">
-                            <img src="./images/Wifi.png" alt="car">
-                            <img src="./images/dumbel.png" alt="car">
-                        </div>
-                        <div class="dividers"></div>
-                        <p class="card-text">2 Bed, 1 Bath</p>
-                    </div>
-                    </div>
-                    <div class="price">
-                        <p class="text-muted">From <strong>₹1,850/mo</strong></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-
+    </div>
 <!-- jQuery (Required) -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <!-- Slick Carousel JS -->
