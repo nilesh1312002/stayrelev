@@ -126,7 +126,7 @@
                 position: absolute;
                 top: 56px;
                 right: 8px;
-                width: 13%;
+                width: 15%;
                 text-align: right;
             }
 
@@ -183,6 +183,10 @@
                 padding: 8px 12px;
                 font-size: 14px;
             }
+
+            .navbar-collapse {
+                width: 20%;
+            }
         }
         
         @media (max-width: 576px) {
@@ -207,8 +211,21 @@
                 padding: 6px 10px;
                 font-size: 12px;
             }
+
+            .navbar-collapse {
+                width: 25%;
+            }
+
+            .hero-content{
+                padding: 192px 15px;
+            }
         }
         
+        @media (max-width: 425px){
+            .navbar-collapse {
+                width: 36%;
+            }
+        }
 
 
         /* The all-in-one workspace */
