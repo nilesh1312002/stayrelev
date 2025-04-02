@@ -210,7 +210,7 @@
 
 .main-heading {
   font-weight: bold;
-  color: #333A4D;
+  color: #333a4d;
   font-size: 35px;
 }
 
@@ -224,7 +224,7 @@
   max-width: 40%;
 }
 .content-section .text-section h4.busniness-heading {
-  background: linear-gradient(90deg, #0095B2, #66E5FF, #0095B2);
+  background: linear-gradient(90deg, #0095b2, #66e5ff, #0095b2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
@@ -374,7 +374,7 @@
 }
 /* POPULAR BUSINESS DESTINATION */
 .business-hubs {
-  background: linear-gradient(135deg, #144A52, #2EA6B8);
+  background: linear-gradient(135deg, #144a52, #2ea6b8);
   color: white;
   padding: 60px 0;
   font-family: "Poppins", sans-serif;
